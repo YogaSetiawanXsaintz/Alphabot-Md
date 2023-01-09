@@ -632,10 +632,10 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `Sabar Cuih 😌`
 }
 exports.ok = () => {
-    return `✅ Done.`
+    return `Done Kak 😉.`
 }
 
 exports.err = () => {
@@ -810,20 +810,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !skip [daerah]
 ╰❒ !stop [surah|ayat]
 
-
-╭─❒ 「 Database 」 
-│○ !setcmd [reply stiker]
-│○ !delcmd [reply stiker]
-│○ !listcmd
-│○ !absen
-│○ !cekabsen
-│○ !deleteabsen
-│○ !absenstart
-│○ !addmsg [nama file]
-│○ !getmsg [nama file]
-│○ !listmsg
-╰❒ !delmsg [nama file]
-
 ╭─❒ 「 Rpg Games 」
 │○ !adventure
 │○ !weekly
@@ -915,13 +901,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !tagall [text]
 ╰❒ !hidetag [text]
 
-╭─❒ 「 Anime 」 
-│○ !quotesanime
-│○ !anime [query]
-│○ !animeinfo
-│○ !manga [query]
-╰❒ !character [query]
-
 ╭─❒ 「 Tag 」 
 │○ !stickertag
 │○ !videotag [query]
@@ -932,7 +911,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !igstalk [username]
 │○ !ghstalk [username]
 ╰❒ !ytstalk [channel]
-
 
 ╭─❒ 「 Search 」 
 │○ !ytsearch [query]
@@ -961,66 +939,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
 
-
-╭─❒ 「 Image Effect 」 
-│○ !wanted [reply image/stiker]
-│○ !utatoo [reply image/stiker]
-│○ !unsharpen [reply image/stiker]
-│○ !thanos [reply image/stiker]
-│○ !sniper [reply image/stiker]
-│○ !sharpen [reply image/stiker]
-│○ !sepia [reply image/stiker]
-│○ !scary [reply image/stiker]
-│○ !rip [reply image/stiker]
-│○ !redple [reply image/stiker]
-│○ !rejected [reply image/stiker]
-│○ !posterize [reply image/stiker]
-│○ !ps4 [reply image/stiker]
-│○ !pixelize [reply image/stiker]
-│○ !missionpassed [reply image/stiker]
-│○ !moustache [reply image/stiker]
-│○ !lookwhatkarenhave [reply image/stiker]
-│○ !jail [reply image/stiker]
-│○ !invert [reply image/stiker]
-│○ !instagram [reply image/stiker]
-│○ !greyscale [reply image/stiker]
-│○ !glitch2 [reply image/stiker]
-│○ !gay [reply image/stiker]
-│○ !frame [reply image/stiker]
-│○ !fire [reply image/stiker]
-│○ !distort [reply image/stiker]
-│○ !dictator [reply image/stiker]
-│○ !deepfry [reply image/stiker]
-│○ !ddungeon [reply image/stiker]
-│○ !circle [reply image/stiker]
-│○ !challenger [reply image/stiker]
-│○ !burn [reply image/stiker]
-│○ !brazzers [reply image/stiker]
-╰❒ !beautiful [reply image/stiker]
-
-
-╭─❒ 「 Sticker Effect 」 
-│○ !jail [reply image/stiker]
-│○ !red [reply image/stiker]
-│○ !gay [reply image/stiker]
-│○ !bloo [reply image/stiker]
-│○ !blue [reply image/stiker]
-│○ !sepia [reply image/stiker]
-│○ !green [reply image/stiker]
-│○ !glass [reply image/stiker]
-│○ !invert [reply image/stiker]
-│○ !blurple [reply image/stiker]
-│○ !blurple2 [reply image/stiker]
-│○ !wasted [reply image/stiker]
-│○ !passed [reply image/stiker]
-│○ !triggered [reply image/stiker]
-│○ !comrade [reply image/stiker]
-│○ !greyscale [reply image/stiker]
-│○ !threshold [reply image/stiker]
-│○ !brightness [reply image/stiker]
-╰❒ !invertgreyscale [reply image/stiker]
-
-
 ╭─❒ 「 Download 」 
 │○ !tiktok [link]
 │○ !tiktoknowm [link]
@@ -1048,71 +966,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !mediafire [link]
 ╰❒ !twitter link
 
-╭─❒ 「 Primbon 」
-│○ !nomorhoki 887435047326
-│○ !artimimpi [query]
-│○ !artinama [query]
-│○ !ramaljodoh
-│○ !ramaljodohbali
-│○ !suamiistri
-│○ !ramalcinta
-│○ !cocoknama
-│○ !pasangan
-│○ !jadiannikah
-│○ !sifatusaha
-│○ !rezeki
-│○ !pekerjaan
-│○ !nasib
-│○ !penyakit
-│○ !tarot
-│○ !fengshui
-│○ !haribaik
-│○ !harisangar
-│○ !harisial
-│○ !nagahari
-│○ !arahrezeki
-│○ !peruntungan
-│○ !weton
-│○ !karakter
-│○ !keberuntungan
-│○ !memancing
-│○ !masasubur
-│○ !zodiak 
-╰❒ !shio [query]
-
-╭─❒ 「 Random Anime 」
-│○ !loli
-│○ !neko
-│○ !waifu
-│○ !shinobu
-│○ !megumin
-│○ !bully
-│○ !cuddle
-│○ !cry
-│○ !hug
-│○ !awoo
-│○ !kiss
-│○ !lick
-│○ !pat
-│○ !smug
-│○ !bonk
-│○ !yeet
-│○ !blush
-│○ !smile
-│○ !wave
-│○ !highfive
-│○ !handhold
-│○ !nom
-│○ !bite
-│○ !glomp
-│○ !slap
-│○ !kill
-│○ !happy
-│○ !wink
-│○ !poke
-│○ !dance
-╰❒ !cringe
-
 ╭─❒ 「 Voice Change Menu 」
 │○ !bass
 │○ !blown
@@ -1126,20 +979,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !slow
 │○ !smooth
 ╰❒ !tupai
-
-╭─❒ 「 Storage Menu 」
-│○ !addvn
-│○ !listvn
-│○ !delvn
-│○ !addimage
-│○ !listimage
-│○ !delimage
-│○ !addvideo
-│○ !listvideo
-│○ !delvideo
-│○ !addstik
-│○ !delstik
-╰❒ !liststik
 
 ╭─❒ 「 Nsfw & Sfw 」
 │○ !cuddle
@@ -1212,271 +1051,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !thighs
 ╰❒ !zettai
 
-╭─❒ 「 Ephoto360 Menu 」
-│○ !youtubegold
-│○ !youtubesilver
-│○ !facebookgold
-│○ !facebooksilver
-│○ !instagramgold
-│○ !instagramsilver
-│○ !twittergold
-│○ !twittersilver
-│○ !retrotext
-│○ !halloweenbats
-│○ !texthalloween
-│○ !cardhalloween
-│○ !birthdaycake
-│○ !thundertext
-│○ !icetext
-│○ !milkcake
-│○ !snowontext
-│○ !metalstar
-│○ !dragonfire
-│○ !zombie3d
-│○ !merrycard
-│○ !generalexam 
-│○ !viettel
-│○ !embroider
-│○ !graffititext
-│○ !graffititext2
-│○ !graffititext3
-│○ !covergraffiti
-│○ !moderngold
-│○ !capercut
-│○ !lovecard
-│○ !heartflashlight
-│○ !heartcup
-│○ !sunglightshadow
-│○ !graffiti3d
-│○ !moderngoldsilver
-│○ !moderngold2
-│○ !moderngold3
-│○ !fabrictext
-│○ !masteryavatar
-│○ !messagecoffee
-│○ !announofwin
-│○ !writeblood
-│○ !horrorletter
-│○ !writehorror
-│○ !shirtclub
-│○ !angelwing
-│○ !christmasseason
-│○ !projectyasuo
-│○ !lovelycute
-│○ !womansday
-│○ !covergamepubg
-│○ !nameonheart
-│○ !funnyhalloween
-│○ !lightningpubg
-│○ !greetingcardvideo 
-│○ !christmascard 
-│○ !galaxybat
-│○ !writegalaxy
-│○ !starsnight
-│○ !noeltext
-│○ !textcakes
-│○ !pubgbirthday
-│○ !galaxywallpaper
-│○ !pubgglicthvideo 
-│○ !pubgmascotlogo
-│○ !realembroidery
-│○ !vintagetelevision
-│○ !funnyanimations
-│○ !glowingtext
-│○ !textonglass
-│○ !cartoonstyle
-│○ !multicolor
-│○ !watercolor2
-│○ !textsky
-│○ !summerbeach
-│○ !1917text
-│○ !puppycute
-╰❒ !rosebirthday
-
-
-╭─❒ 「 Textpro Menu 」
-│○ !halloween2 text|text2
-│○ !horror text|text2
-│○ !game8bit text|text2
-│○ !layered text|text2
-│○ !glitch2 text|text2
-│○ !coolg text|text2
-│○ !coolwg text|text2
-│○ !realistic text|text2
-│○ !space3d text|text2
-│○ !gtiktok text|text2
-│○ !stone text|text2
-│○ !marvel text|text2
-│○ !marvel2 text|text2
-│○ !pornhub text|text2
-│○ !avengers text|text2
-│○ !metalr text|text2
-│○ !metalg text|text2
-│○ !metalg2 text|text2
-│○ !halloween2 text|text2
-│○ !lion text|text2
-│○ !wolf_bw text|text2
-│○ !wolf_g text|text2
-│○ !ninja text|text2
-│○ !3dsteel text|text2
-│○ !horror2 text|text2
-│○ !lava text|text2
-│○ !bagel text|text2
-│○ !blackpink text
-│○ !rainbow2 text
-│○ !water_pipe text
-│○ !halloween text
-│○ !sketch text
-│○ !sircuit text
-│○ !discovery text
-│○ !metallic2 text
-│○ !fiction text
-│○ !demon text
-│○ !transformer text
-│○ !berry text
-│○ !thunder text
-│○ !magma text
-│○ !3dstone text
-│○ !neon text
-│○ !glitch text
-│○ !harry_potter text
-│○ !embossed text
-│○ !broken text
-│○ !papercut text
-│○ !gradient text
-│○ !glossy text
-│○ !watercolor text
-│○ !multicolor text
-│○ !neon_devil text
-│○ !underwater text
-│○ !bear text
-│○ !wonderfulg text
-│○ !christmas text
-│○ !neon_light text
-│○ !snow text
-│○ !cloudsky text
-│○ !luxury2 text
-│○ !gradient2 text
-│○ !summer text
-│○ !writing text
-│○ !engraved text
-│○ !summery text
-│○ !3dglue text
-│○ !metaldark text
-│○ !neonlight text
-│○ !oscar text
-│○ !minion text
-│○ !holographic text
-│○ !purple text
-│○ !glossyb text
-│○ !deluxe2 text
-│○ !glossyc text
-│○ !fabric text
-│○ !neonc text
-│○ !newyear text
-│○ !newyear2 text
-│○ !metals text
-│○ !xmas text
-│○ !blood text
-│○ !darkg text
-│○ !joker text
-│○ !wicker text
-│○ !natural text
-│○ !firework text
-│○ !skeleton text
-│○ !balloon text
-│○ !balloon2 text
-│○ !balloon3 text
-│○ !balloon4 text
-│○ !balloon5 text
-│○ !balloon6 text
-│○ !balloon7 text
-│○ !steel text
-│○ !gloss text
-│○ !denim text
-│○ !decorate text
-│○ !decorate2 text
-│○ !peridot text
-│○ !rock text
-│○ !glass text
-│○ !glass2 text
-│○ !glass3 text
-│○ !glass4 text
-│○ !glass5 text
-│○ !glass6 text
-│○ !glass7 text
-│○ !glass8 text
-│○ !captain_as2 text
-│○ !robot text
-│○ !equalizer text
-│○ !toxic text
-│○ !sparkling text
-│○ !sparkling2 text
-│○ !sparkling3 text
-│○ !sparkling4 text
-│○ !sparkling5 text
-│○ !sparkling6 text
-│○ !sparkling7 text
-│○ !decorative text
-│○ !chocolate text
-│○ !strawberry text
-│○ !koifish text
-│○ !bread text
-│○ !matrix text
-│○ !blood2 text
-│○ !neonligth2 text
-│○ !thunder2 text
-│○ !3dbox text
-│○ !neon2 text
-│○ !roadw text
-│○ !bokeh text
-│○ !gneon text
-│○ !advanced text
-│○ !dropwater text
-│○ !wall text
-│○ !chrismast text
-│○ !honey text
-│○ !drug text
-│○ !marble text
-│○ !marble2 text
-│○ !ice text
-│○ !juice text
-│○ !rusty text
-│○ !abstra text
-│○ !biscuit text
-│○ !wood text
-│○ !scifi text
-│○ !metalr text
-│○ !purpleg text
-│○ !shiny text 
-│○ !jewelry text
-│○ !jewelry2 text
-│○ !jewelry3 text
-│○ !jewelry4 text
-│○ !jewelry5 text
-│○ !jewelry6 text
-│○ !jewelry7 text
-│○ !jewelry8 text
-│○ !metalh text
-│○ !golden text
-│○ !glitter text
-│○ !glitter2 text
-│○ !glitter3 text
-│○ !glitter4 text
-│○ !glitter5 text
-│○ !glitter6 text
-│○ !glitter7 text
-│○ !metale text
-│○ !carbon text
-│○ !candy text
-│○ !metalb text
-│○ !gemb text
-│○ !3dchrome text
-│○ !metalb2 text
-│○ !metalg text
-╰❒ !metalg text
-
-
 ╭─❒ 「 Others 」
 │○ !afk [reason]
 │○ !translate kode_bahasa text
@@ -1501,135 +1075,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !susunkata
 ╰❒ !caklontong
 
-
-╭─❒ 「 Asupan Menu 」
-│○ !chika
-│○ !delvira
-│○ !ayu
-│○ !bunga
-│○ !aura
-│○ !nisa
-│○ !ziva
-│○ !yana
-│○ !viona
-│○ !syania
-│○ !riri
-│○ !syifa
-│○ !mama_gina
-│○ !alcakenya
-│○ !mangayutri
-│○ !rikagusriani
-│○ !asupan
-│○ !bocil
-│○ !geayubi
-│○ !santuy
-│○ !ukhty
-╰❒ !syifa
-
-╭─❒ 「 Telegram Sticker 」
-│○ !awoawo
-│○ !benedict
-│○ !chat
-│○ !dbfly
-│○ !dino_kuning
-│○ !doge
-│○ !gojosatoru
-│○ !hope_boy
-│○ !jisoo
-│○ !kr_robot
-│○ !kucing
-│○ !lonte
-│○ !manusia_lidi
-│○ !menjamet
-│○ !meow
-│○ !nicholas
-│○ !patrick
-│○ !popoci
-│○ !sponsbob
-│○ !kawan_sponsbob
-╰❒ !tyni
-
-╭─❒ 「 Random Cewe 」
-│○ !china 
-│○ !indonesia 
-│○ !malaysia 
-│○ !thailand 
-│○ !korea 
-│○ !japan 
-│○ !vietnam 
-│○ !jenni 
-│○ !jiso 
-│○ !lisa  
-╰❒ !rose
-
-╭─❒ 「 Logo Menu 」
-│○ !coverbannerlol text|heroes
-│○ !pubglogomaker text|style
-│○ !colorfulpubg text|color
-│○ !astronotspace text|style
-│○ !wallpaperaov text|heroes
-│○ !maketeamlogo text|style
-│○ !circlemarcotteam text|logo
-│○ !wallpaperml text|heroes
-│○ !dragonballfb text|character
-│○ !bannerofaov text|character
-│○ !effect3donbeach text|background
-│○ !cutegirlgamer text|logo
-│○ !footballteam text|logo
-│○ !beautifulshimmering text|champion
-│○ !pubgcutelogo text|logo
-│○ !elegantrotation text|logo
-│○ !logogamingassasin text|logo
-│○ !introvideomaker text|logo
-│○ !gaminglogo4fvs text|logo
-│○ !blueneon text|logo
-│○ !metalmascot text|logo
-│○ !anonymous2 text|style
-│○ !lolpentakill text|style
-│○ !avatarleagueofking text|style
-│○ !avatarff text|character
-│○ !overwatchwallpaper text|character
-│○ !rovwallpaperhd text|hero
-│○ !rovwallpaper text|avatar
-│○ !beautifulgalaxylol text|style
-│○ !crossfirecover text|character
-│○ !lolwallpaper text|wallpaper
-│○ !coverdota2 text|heroes
-│○ !coverleagueofking text|character
-│○ !avatar3q360 text|avatar
-│○ !coverofwarface text|character
-│○ !newlolavatar text|avatar
-│○ !csgocover text|background
-│○ !coverloknew text|hero
-│○ !coverfblol text|letters
-│○ !overwatchcover text|hero
-│○ !crossfirestyle text|avatar
-│○ !avatarlolbyname text|style
-│○ !lolcoverbyname text|avatar
-│○ !cyberhunterfb text|character
-│○ !coverfreefirefb text|character
-│○ !gamingmascot text|style
-│○ !coveronepiecefb text|character
-│○ !bannerytcsgo text|banner
-│○ !fbgamepubgcover text|template
-│○ !banneroflol text|text2|banner
-│○ !bannerofaov2 text|text2|banner
-│○ !teamlogo text|text2|background
-│○ !companylogo2 text|text2|background
-│○ !companylogo text|text2|background
-│○ !gradientlogo text|text2|background
-│○ !pencilsketch text|text2|icon
-│○ !gunlogogaming text|text2|background
-│○ !banneroffreefire text|text2|background
-│○ !letterlogos text|text2|thumb
-│○ !bannerofoverwatch text|text2|background
-│○ !bannerofapex text|text2|background
-│○ !bannerofpubg text|text2|background
-│○ !mascotstyle text|text2|thumb
-│○ !logoaccording text|text2|thumb
-╰❒ !avataroverwatch text|text2|thumb
-
-
 ╭─❒ 「 Islamic Menu 」
 │○ !asmaulhusna
 │○ !kisahnabi [nabi]
@@ -1640,88 +1085,10 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !tafsirsurah [surah]
 ╰❒ !alquranaudio [surah|ayat]
 
-╭─❒ 「 Sound Menu 」
-│○ !sound1
-│○ !sound2
-│○ !sound3
-│○ !sound4
-│○ !sound5
-│○ !sound6
-│○ !sound7
-│○ !sound8
-│○ !sound9
-│○ !sound10
-│○ !sound11
-│○ !sound12
-│○ !sound13
-│○ !sound14
-│○ !sound15
-│○ !sound16
-│○ !sound17
-│○ !sound18 
-│○ !sound19
-│○ !sound20
-│○ !sound21
-│○ !sound22
-│○ !sound23
-│○ !sound24
-│○ !sound25
-│○ !sound26
-│○ !sound27
-│○ !sound28
-│○ !sound29
-│○ !sound30
-│○ !sound31
-│○ !sound32
-│○ !sound33
-│○ !sound34
-│○ !sound35
-│○ !sound36
-│○ !sound37
-│○ !sound38
-│○ !sound39
-│○ !sound40
-│○ !sound41
-│○ !sound42
-│○ !sound43
-│○ !sound44
-│○ !sound45
-│○ !sound46
-│○ !sound47
-│○ !sound48
-│○ !sound49
-│○ !sound50
-│○ !sound51
-│○ !sound52
-│○ !sound53
-│○ !sound54
-│○ !sound55
-│○ !sound56
-│○ !sound57
-│○ !sound58
-│○ !sound59
-│○ !sound60
-│○ !sound61
-│○ !sound62
-│○ !sound63
-│○ !sound64
-│○ !sound65
-│○ !sound66
-│○ !sound67
-│○ !sound68
-│○ !sound69
-╰❒ !sound70
-
 ╭─❒ 「 TqTo 」 
-│○ My God
+│○ Allah Swt
 │○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
+│○ MrLiverZhask
 │○ Penyedia Module
 ╰❒ And All Support
     `
