@@ -721,376 +721,72 @@ saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
+    
 *⌚Time Server : ${time}*
 *📚 List-Menu Bot :*
 
-╭─❒ 「 Bot Info 」 
-│○ !owner
-│○ !rules
-│○ !sc
-│○ !ping
-│○ !runtime
-│○ !botstatus
-╰❒ !donate
+*Fitur Update*
+ »« quotes »« 
 
+*「 Anonymous 」*
+.menfess
 
-╭─❒ 「 Owner 」 
-│○ !setmenu [query]
-│○ !setmenu katalog
-│○ !setmenu katalog2
-│○ !setmenu list
-│○ !setwm packname|author
-│○ !sendsesi
-│○ !listpc
-│○ !listgc
-│○ !broadcast [text]
-│○ !bc [text]
-│○ !bcgc 
-│○ !bcimage
-│○ !bcaudio
-│○ !bcstiker
-│○ !bcvn
-│○ !bcvideo
-│○ !banuser
-│○ !unban
-│○ !banned
-│○ !listbanned
-│○ !block
-│○ !ublock
-│○ !listblock
-│○ !addpremium
-│○ !delpremium
-│○ !listpremium
-│○ !nsfw [on/off]
-│○ !mute [on/off]
-│○ !autoblok212 [on/off]
-│○ !banchat
-│○ !unbanchat
-│○ !autorespond [on/off]
-│○ !antiviewonce [on/off]
-│○ !autobio [on/off]
-│○ !anticall [on/off]
-│○ !join [link]
-│○ !self
-│○ !public [only bot]
-│○ !del [reply pesan bot]
-│○ !pppanjang
-│○ !setpppanjang
-╰❒ !setppbot [reply image]
+*「 Stalking 」*
+.igstalk [username]
+.ghstalk [username]
+.ytstalk [channel]
 
-╭─❒ 「 Store Menu 」
-│○ !list
-│○ !addlist [key|respond]
-│○ !dellist [key]
-│○ !update [key|respond]
-│○ !store
-│○ !kali
-│○ !bagi
-│○ !tambah
-│○ !kurang
-│○ !kalkulator
-│○ !setproses
-│○ !updateproses
-│○ !cekproses
-│○ !delproses
-│○ !setdone
-│○ !updatedone
-│○ !cekdone
-│○ !deldone
-│○ !pay
-│○ !setcaptionpay
-│○ !setpaysewa
-│○ !proses
-╰❒ !done
+*「 Search 」* 
+.ytsearch [query]
+.google [query]
+.wikimedia [query]
+.apksearch
+.findapk
+.wattpad [query]
+.webtoons [query]
+.brainly [query]
+.pinterest [query]
 
-╭─❒ 「 Anonymous 」
-│○ !menfess
-│○ !anonymous 
-│○ !start
-│○ !skip [daerah]
-╰❒ !stop [surah|ayat]
+*「 Converter 」*
+.emoji [😭]
+.emojimix [😭+💩]
+.tomp3 [video]
+.stiker [reply image]
+.togif [sticker]
+.tomp4 [sticker]
+${prefix}toimg [reply sticker]
 
-╭─❒ 「 Rpg Games 」
-│○ !adventure
-│○ !weekly
-│○ !use
-│○ !transfer
-│○ !slot
-│○ !shop
-│○ !pasar
-│○ !profile
-│○ !ojek
-│○ !open
-│○ !nguli
-│○ !narik
-│○ !nabung
-│○ !monthly
-│○ !mining
-│○ !merampok
-│○ !mancing
-│○ !kolam
-│○ !koboy
-│○ !kerja
-│○ !kandang
-│○ !judi
-│○ !inventory
-│○ !hourly
-│○ !fishop
-│○ !feed
-│○ !duel
-│○ !daily
-│○ !craft
-│○ !cooldown
-│○ !cook
-│○ !collect
-│○ !chop
-│○ !casino
-│○ !buy
-│○ !bank 
-│○ !bansos
-│○ !berdagang
-│○ !berkebon
-╰❒ !build
+*「 Download 」*
+.tiktok [link]
+.tiktokaudio [link]
+.ytdl [link]
+.play [query]
+.ytmp3 [link]
+.ytshortmp3 [link]
+.ytmp4 [link]
+.ytshorts [link]
+.facebook [link]
+.fbaudio [link]
+.igstory [username]
+.igdl [link]
+.soundcloud [link]
+.mediafire [link]
+.twitter link
 
-╭─❒ 「 Group 」 
-│○ !addsewa
-│○ !delsewa
-│○ !listsewa
-│○ !ceksewa
-│○ !register
-│○ !unregister
-│○ !ceksn
-│○ !listonline
-│○ !sider
-│○ !wm packname|author
-│○ !infochat
-│○ !setdesk [text]
-│○ !setppgrup [reply image]
-│○ !pppanjanggc
-│○ !setpppanjanggc
-│○ !revoke
-│○ !leave
-│○ !add [62***]
-│○ !kick @tag
-│○ !leave
-│○ !linkgc
-│○ !welcome [on/off]
-│○ !goodbye [on/off]
-│○ !demotedetect [on/off]
-│○ !promotedetect  [on/off]
-│○ !setwelcome
-│○ !updatewelcome
-│○ !delwelcome
-│○ !cekwelcome
-│○ !setgoodbye
-│○ !updategoodbye
-│○ !delgoodbye
-│○ !cekgoodbye
-│○ !setpromote
-│○ !updatepromote
-│○ !setdemote
-│○ !updatedemote
-│○ !cekpromote
-│○ !cekdemote
-│○ !delpromote
-│○ !deldemote
-│○ !nsfw [on/off]
-│○ !antilink [on/off]
-│○ !take packname|author
-│○ !group [open/close]
-│○ !tagall [text]
-╰❒ !hidetag [text]
+*「 Islamic Menu 」*
+.asmaulhusna
+.kisahnabi [nabi]
+.jadwalshalat [daerah]
+.randomquran
+.randomquran2
+.listsurah
+.tafsirsurah [surah]
+.alquranaudio [surah|ayat]
 
-╭─❒ 「 Tag 」 
-│○ !stickertag
-│○ !videotag [query]
-│○ !vntag [query]
-╰❒ !imagetag [query]
-
-╭─❒ 「 Stalking 」 
-│○ !igstalk [username]
-│○ !ghstalk [username]
-╰❒ !ytstalk [channel]
-
-╭─❒ 「 Search 」 
-│○ !ytsearch [query]
-│○ !wallpaper [query]
-│○ !google [query]
-│○ !wikimedia [query]
-│○ !apksearch
-│○ !findapk
-│○ !hentai
-│○ !wattpad [query]
-│○ !webtoons [query]
-│○ !drakor [query]
-│○ !brainly [query]
-╰❒ !pinterest [query]
-
-
-╭─❒ 「 Converter 」
-│○ !emoji [😭]
-│○ !emojimix [😭+💩]
-│○ !toaudio [video]
-│○ !tomp3 [video]
-│○ !tovn [video]
-│○ !stiker [reply image]
-│○ !tourl [image/video/stiker]
-│○ !togif [sticker]
-│○ !tomp4 [sticker]
-╰❒${prefix}toimg [reply sticker]
-
-╭─❒ 「 Download 」 
-│○ !tiktok [link]
-│○ !tiktoknowm [link]
-│○ !tiktokwm [link]
-│○ !tiktokaudio [link]
-│○ !ytdl [link]
-│○ !play [query]
-│○ !ytmp3 [link]
-│○ !ytshortmp3 [link]
-│○ !ytmp4 [link]
-│○ !ytshorts [link]
-│○ !facebook [link]
-│○ !facebooksd [link]
-│○ !facebookhd [link]
-│○ !fbaudio [link]
-│○ !igstory [username]
-│○ !igdl [link]
-│○ !igphoto [link]
-│○ !igvideo [link]
-│○ !igreels [link]
-│○ !igtv [link]
-│○ !soundcloud [link]
-│○ !gitclone [link repo]
-│○ !gitrepo [username repo branch]
-│○ !mediafire [link]
-╰❒ !twitter link
-
-╭─❒ 「 Voice Change Menu 」
-│○ !bass
-│○ !blown
-│○ !deep
-│○ !earrape
-│○ !fast
-│○ !fat
-│○ !nightcore
-│○ !reverse
-│○ !robot
-│○ !slow
-│○ !smooth
-╰❒ !tupai
-
-╭─❒ 「 Nsfw & Sfw 」
-│○ !cuddle
-│○ !foxgirl
-│○ !kemonomimi2
-│○ !woof
-│○ !holo2
-│○ !hug
-│○ !kiss
-│○ !lizard
-│○ !meowi
-│○ !neko2
-│○ !pat
-│○ !poke
-│○ !slap
-│○ !tickle
-│○ !baka
-│○ !smug
-│○ !neko_sfw
-│○ !hentai
-│○ !hentai_gif
-│○ !spank
-│○ !blowjob
-│○ !cumarts
-│○ !eroyuri
-│○ !eroneko
-│○ !erokemonomimi
-│○ !erokitsune
-│○ !ero
-│○ !feet
-│○ !erofeet
-│○ !feetgif
-│○ !femdom
-│○ !futanari
-│○ !holoero
-│○ !holo
-│○ !keta
-│○ !kitsune
-│○ !kemonomimi
-│○ !pussyart
-│○ !pussywankgif
-│○ !girl_solo
-│○ !girl_solo_gif
-│○ !tits
-│○ !trap
-│○ !yuri
-│○ !avatar2
-│○ !anal
-│○ !bj
-│○ !boobs
-│○ !classic
-│○ !cumsluts
-│○ !kuni
-│○ !lesbian
-│○ !neko
-│○ !neko_gif
-│○ !ahegao
-│○ !bdsm
-│○ !cuckold
-│○ !cum
-│○ !foot
-│○ !gangbang
-│○ !glasses
-│○ !jahy
-│○ !masturbation
-│○ !nsfw_neko
-│○ !orgy
-│○ !panties
-│○ !tentacles
-│○ !thighs
-╰❒ !zettai
-
-╭─❒ 「 Others 」
-│○ !afk [reason]
-│○ !translate kode_bahasa text
-│○ !kalkulator [query]
-│○ !smeme [text]
-│○ !smeme2 [text|text]
-│○ !memegen [text|text]
-╰❒
-
-╭─❒ 「 Game Menu 」
-│○ !kuismath
-│○ !tebakgambar
-│○ !tebakkata
-│○ !tebakbendera
-│○ !tebakkalimat
-│○ !tebaksiapa
-│○ !tebakkabupaten
-│○ !tebakkimia
-│○ !tebaklirik
-│○ !tebaktebakan
-│○ !tekateki
-│○ !susunkata
-╰❒ !caklontong
-
-╭─❒ 「 Islamic Menu 」
-│○ !asmaulhusna
-│○ !kisahnabi [nabi]
-│○ !jadwalshalat [daerah]
-│○ !randomquran
-│○ !randomquran2
-│○ !listsurah
-│○ !tafsirsurah [surah]
-╰❒ !alquranaudio [surah|ayat]
-
-╭─❒ 「 TqTo 」 
-│○ Allah Swt
-│○ My Parents
-│○ MrLiverZhask
-│○ Penyedia Module
-╰❒ And All Support
+*»« 「 TqTo 」 »«*
+○ Allah Swt ○
+○ MrLiverZhask ○
+○ Penyedia Module ○
     `
 }
 
